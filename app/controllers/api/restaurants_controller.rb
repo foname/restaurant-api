@@ -1,5 +1,4 @@
 class Api::RestaurantsController < ApplicationController
-  # before_action :set_restaurant, only: [:show]
   
   # GET /restaurants
   def index
@@ -16,6 +15,4 @@ class Api::RestaurantsController < ApplicationController
     @restaurant = Restaurant.find(params[:id])
     json_response(@restaurant)
   end
-
-
 end
