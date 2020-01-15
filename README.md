@@ -41,54 +41,54 @@ and available endpoint URL
 
 Example of restponse
 ```
-Request:	http://localhost:3000/api/restaurants/1
-Response:	{
-			    "restaurants": [
-			        {
-			            "id": 1,
-			            "name": "Thai Restaurant"
-			        }
-			    ]
-			}
+Request:    http://localhost:3000/api/restaurants/1
+Response:   {
+                "restaurants": [
+                    {
+                        "id": 1,
+                        "name": "Thai Restaurant"
+                    }
+                ]
+            }
 ```
 ```
-Request: 	http://localhost:3000/api/restaurants/1/dishes
-Respose:	{
-			    "dishes": [
-			        {
-			            "id": 1,
-			            "name": "Tom Yum"
-			        },
-			        {
-			            "id": 2,
-			            "name": "Green Curry"
-			        },
-			        {
-			            "id": 3,
-			            "name": "Pad Thai"
-			        }
-			    ]
-			}
+Request:    http://localhost:3000/api/restaurants/1/dishes
+Respose:    {
+                "dishes": [
+                    {
+                        "id": 1,
+                        "name": "Tom Yum"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Green Curry"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Pad Thai"
+                    }
+                ]
+            }
 ```
 ```
-Request: 	http://localhost:3000/api/dishes/10/restaurants
-Response:	{
-			    "restaurants": [
-			        {
-			            "id": 3,
-			            "name": "Tasty cafe"
-			        },
-			        {
-			            "id": 4,
-			            "name": "Pizza Plaza"
-			        }
-			    ]
-			}
+Request:    http://localhost:3000/api/dishes/10/restaurants
+Response:   {
+                "restaurants": [
+                    {
+                        "id": 3,
+                        "name": "Tasty cafe"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Pizza Plaza"
+                    }
+                ]
+            }
 ```
 ```
-Request:	http://localhost:3000/api/dishes/100
-Response:	{
-			    "message": "Couldn't find Dish with 'id'=100"
-			}
+Request:    http://localhost:3000/api/dishes/100
+Response:   {
+                "message": "Couldn't find Dish with 'id'=100"
+            }
 ```
 
